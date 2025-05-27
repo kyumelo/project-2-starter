@@ -1,0 +1,14 @@
+/* STYLE FOR YOUR INDEX.HTML */
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+
+.logo{
+    padding-left: 1%;
+    padding-top: 1%;
+    width: 7%;
+}
