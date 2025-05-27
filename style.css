@@ -39,3 +39,16 @@ h1{
     line-height: 75px;
     font-size: 30px;
 }
+.flexmain{
+    background-color: darkblue;
+    display: flex;
+}
+.flexmain div{
+    background-color: #f1f1f1;
+  width: 60%;
+  margin: 2%;
+  text-align: center;
+  height: 50vh;
+  font-size: 30px;
+  padding: 5%;
+}
