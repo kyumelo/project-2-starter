@@ -22,7 +22,20 @@ h1{
     font-size: 20px;
     padding: 20px;
     text-decoration: none;
+    text-align: center;
 }
 .nav{
     background-color: aliceblue;
+}
+.flex1{
+    display: flex;
+    background-color: aliceblue;
+}
+.flex1 div{
+    background-color: lightskyblue;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
 }
