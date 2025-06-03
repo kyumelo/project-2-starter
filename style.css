@@ -4,20 +4,23 @@ body{
 }
 h1{
     color: white;
-    text-align: center;
     font-size: 100px;
-    display: inline;
+    display: flex;
+  justify-content: center;
+  align-items: center;
     padding-left: 5%;
     text-shadow:  1px 2px 5px rgb(166, 209, 230),
     0 0 1em rgb(23, 75, 109),
     0 0 0.2em rgb(71, 138, 182);
-    
+    font-family: Ok;
+    margin: 0%; 
 }
 
 .logo{
     padding-left: 1%;
     padding-top: 1%;
     width: 7%;
+    position: absolute;
 }
 .nav {
   display: flex;
@@ -34,6 +37,7 @@ h1{
   text-decoration: none;
   padding: 10px;
   font-weight: bold;
+  font-family: ITC;
 }
 .flex1{
     display: flex;
@@ -88,4 +92,12 @@ h1{
 }
 @keyframes pulse {
     50%{color:red;}
+}
+@font-face {
+    font-family: Ok;
+    src: url(Okaluera.otf);
+}
+@font-face {
+    font-family: ITC;
+    src: url(ITC\ Avant\ Garde\ Gothic\ Std\ Extra\ Light.otf);
 }
