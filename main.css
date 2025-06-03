@@ -1,1 +1,265 @@
 /* STYLE FOR YOU MAIN.HTML */
+/* STYLE FOR YOUR INDEX.HTML */
+body{
+    background-image: url(space.jpg);
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    display: inline;
+    padding-left: 5%;
+    text-shadow:  1px 2px 5px rgb(166, 209, 230),
+    0 0 1em rgb(23, 75, 109),
+    0 0 0.2em rgb(71, 138, 182);
+}
+
+.logo{
+    padding-left: 1%;
+    padding-top: 1%;
+    width: 7%;
+}
+.nav li{
+    display: inline-block;
+    color: rgb(253, 250, 250);
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    border: rgb(170, 194, 230) solid 3px;
+    margin: 3px;
+    border-radius:5px;
+    background-color: #f1f1f1;
+    
+}
+.nav{
+    background-color: black;
+
+}
+.flex1{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.flex1 div{
+    background-color: rgb(255, 255, 255);
+    width: 23%;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    border: black solid 1px;
+    border-radius: 4px;
+}
+@font-face {
+    font-family: Ting;
+    src: url(TingTong.ttf);
+}
+@font-face{
+    font-family: didot;
+    src: url(Didot.otf);
+}
+.LOONA{
+    text-decoration: none;
+    color: rgb(128, 186, 241);
+}
+.Members{
+    text-decoration: none;
+    color: rgb(128, 186, 241);
+}
+.Discography{
+    text-decoration: none;
+    color: rgb(128, 186, 241);
+}
+.Redebuts{
+    text-decoration: none;
+    color: rgb(128, 186, 241);
+}
+.heejin{
+    background-color: white;
+    transition: background-color .5s;
+}
+.heejin:hover{
+  box-shadow: 0px 0px 5px #ff0099 ;
+  background-color: #ff00994f;
+  color: white;
+}
+.heejin:hover .name1{
+  scale: 115%; transform: rotate(6deg)
+}
+.name1{
+    font-family: Ting;
+    font-size: 7vh;
+    margin: 0%;
+    transition: scale .5s, transform .5s;
+    transition-timing-function: ease-out;
+}
+.hyunjin:hover{
+  box-shadow: 0 0 0 3px #fed103;
+  background-color: #fed1034f;
+  color: white;
+}
+.hyunjin:hover .name2{
+    scale: 115%; transform: rotate(6deg)
+}
+.name2{
+    font-family: Ting;
+    font-size: 7vh;
+    margin: 0%;
+    transition: scale .5s, transform .5s;
+    transition-timing-function: ease-out;
+}
+.haseul:hover{
+  box-shadow: 0 0 0 3px #00b055;
+  background-color: #00b0554f;
+  color: white;
+}
+.haseul:hover .name3{
+    scale: 115%; transform: rotate(6deg)
+}
+.name3{
+    font-family: Ting;
+    font-size: 7vh;
+    margin: 0%;
+    transition: scale .5s, transform .5s;
+    transition-timing-function: ease-out;
+}
+.yeojin:hover{
+  box-shadow: 0 0 0 3px #ff7423;
+  background-color: #ff74234f;
+  color: white;
+}
+.yeojin:hover .name4{
+    scale: 115%; transform: rotate(6deg)
+}
+.name4{
+    font-family: Ting;
+    font-size: 7vh;
+    margin: 0%;
+    transition: scale .5s, transform .5s;
+    transition-timing-function: ease-out;
+}
+.vivi:hover{
+  box-shadow: 0 0 0 3px #ffacc6;
+  background-color: #ffacc64f;
+  color: white;
+}
+.vivi:hover .name5{
+    scale: 115%; transform: rotate(6deg)
+}
+.name5{
+    font-family: Ting;
+    font-size: 7vh;
+    margin: 0%;
+    transition: scale .5s, transform .5s;
+    transition-timing-function: ease-out;
+}
+.kimlip:hover{
+  box-shadow: 0 -3 0 3px #f3080a;
+  background-color: #f3080a4f;
+  color: white;
+}
+.kimlip:hover .name6{
+    scale: 115%; transform: rotate(6deg)
+}
+.name6{
+    font-family: Ting;
+    font-size: 7vh;
+    margin: 0%;
+    transition: scale .5s, transform .5s;
+    transition-timing-function: ease-out;
+}
+.jinsoul:hover{
+  box-shadow: 0 0 0 3px #0c01ff;
+  background-color: #0c01ff4f;
+  color: white;
+}
+.jinsoul:hover .name7{
+    scale: 115%; transform: rotate(6deg)
+}
+.name7{
+    font-family: Ting;
+    font-size: 7vh;
+    margin: 0%;
+    transition: scale .5s, transform .5s;
+    transition-timing-function: ease-out;
+}
+.choerry:hover{
+  box-shadow: 0 0 0 3px #972ac5;
+  background-color: #972ac54f;
+  color: white;
+}
+.choerry:hover .name8{
+    scale: 115%; transform: rotate(6deg)
+}
+.name8{
+    font-family: Ting;
+    font-size: 7vh;
+    margin: 0%;
+    transition: scale .5s, transform .5s;
+    transition-timing-function: ease-out;
+}
+.yves:hover{
+  box-shadow: 0 0 0 3px #6f002f;
+  background-color: #6f002f4f;
+  color: white;
+}
+.yves:hover .name9{
+    scale: 115%; transform: rotate(6deg)
+}
+.name9{
+    font-family: Ting;
+    font-size: 7vh;
+    margin: 0%;
+    transition: scale .5s, transform .5s;
+    transition-timing-function: ease-out;
+}
+.chuu:hover{
+  box-shadow: 0 0 0 3px #feb08a;
+  background-color: #feb08a4f;
+  color: white;
+}
+.chuu:hover .name10{
+    scale: 115%; transform: rotate(6deg)
+}
+.name10{
+    font-family: Ting;
+    font-size: 7vh;
+    margin: 0%;
+    transition: scale .5s, transform .5s;
+    transition-timing-function: ease-out;
+}
+.gowon:hover{
+  box-shadow: 0 0 0 3px #84e067;
+  background-color: #84e0674f;
+  color: white;
+}
+.gowon:hover .name11{
+    scale: 115%; transform: rotate(6deg)
+}
+.name11{
+    font-family: Ting;
+    font-size: 7vh;
+    margin: 0%;
+    transition: scale .5s, transform .5s;
+    transition-timing-function: ease-out;
+}
+.olivia:hover{
+  box-shadow: 0 0 0 3px #676a6d ;
+  background-color: #676a6d4f;
+  color: white;
+}
+.olivia:hover .name12{
+    scale: 115%; transform: rotate(6deg)
+}
+.name12{
+    font-family: Ting;
+    font-size: 7vh;
+    margin: 0%;
+    transition: scale .5s, transform .5s;
+    transition-timing-function: ease-out;
+}
+.bio{
+    font-family: Didot;
+    font-size: large;
+    line-height: 1.2;
+}
