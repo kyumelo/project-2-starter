@@ -6,7 +6,7 @@ body{
 h1{
     color: white;
     text-align: center;
-    font-size: 50px;
+    font-size: 100px;
     display: inline;
     padding-left: 5%;
     text-shadow:  1px 2px 5px rgb(166, 209, 230),
@@ -75,11 +75,10 @@ h1{
     color: rgb(128, 186, 241);
 }
 .heejin{
-    background-color: white;
     transition: background-color .5s;
 }
 .heejin:hover{
-  box-shadow: 0px 0px 5px #ff0099 ;
+  box-shadow: 0px 0px 0px 3px #ff0099 ;
   background-color: #ff00994f;
   color: white;
 }
@@ -92,6 +91,9 @@ h1{
     margin: 0%;
     transition: scale .5s, transform .5s;
     transition-timing-function: ease-out;
+}
+.hyunjin{
+    transition: background-color .5s;
 }
 .hyunjin:hover{
   box-shadow: 0 0 0 3px #fed103;
@@ -108,6 +110,9 @@ h1{
     transition: scale .5s, transform .5s;
     transition-timing-function: ease-out;
 }
+.haseul{
+    transition: background-color .5s;
+}
 .haseul:hover{
   box-shadow: 0 0 0 3px #00b055;
   background-color: #00b0554f;
@@ -122,6 +127,9 @@ h1{
     margin: 0%;
     transition: scale .5s, transform .5s;
     transition-timing-function: ease-out;
+}
+.yeojin{
+    transition: background-color .5s;
 }
 .yeojin:hover{
   box-shadow: 0 0 0 3px #ff7423;
@@ -138,6 +146,9 @@ h1{
     transition: scale .5s, transform .5s;
     transition-timing-function: ease-out;
 }
+.vivi{
+    transition: background-color .5s;
+}
 .vivi:hover{
   box-shadow: 0 0 0 3px #ffacc6;
   background-color: #ffacc64f;
@@ -153,8 +164,11 @@ h1{
     transition: scale .5s, transform .5s;
     transition-timing-function: ease-out;
 }
+.kimlip{
+    transition: background-color .5s;
+}
 .kimlip:hover{
-  box-shadow: 0 -3 0 3px #f3080a;
+  box-shadow: 0 0 0 3px #f3080a;
   background-color: #f3080a4f;
   color: white;
 }
@@ -167,6 +181,9 @@ h1{
     margin: 0%;
     transition: scale .5s, transform .5s;
     transition-timing-function: ease-out;
+}
+.jinsoul{
+    transition: background-color .5s;
 }
 .jinsoul:hover{
   box-shadow: 0 0 0 3px #0c01ff;
@@ -183,6 +200,9 @@ h1{
     transition: scale .5s, transform .5s;
     transition-timing-function: ease-out;
 }
+.choerry{
+    transition: background-color .5s;
+}
 .choerry:hover{
   box-shadow: 0 0 0 3px #972ac5;
   background-color: #972ac54f;
@@ -197,6 +217,9 @@ h1{
     margin: 0%;
     transition: scale .5s, transform .5s;
     transition-timing-function: ease-out;
+}
+.yves{
+    transition: background-color .5s;
 }
 .yves:hover{
   box-shadow: 0 0 0 3px #6f002f;
@@ -213,6 +236,9 @@ h1{
     transition: scale .5s, transform .5s;
     transition-timing-function: ease-out;
 }
+.chuu{
+    transition: background-color .5s;
+}
 .chuu:hover{
   box-shadow: 0 0 0 3px #feb08a;
   background-color: #feb08a4f;
@@ -228,6 +254,9 @@ h1{
     transition: scale .5s, transform .5s;
     transition-timing-function: ease-out;
 }
+.gowon{
+    transition: background-color .5s;
+}
 .gowon:hover{
   box-shadow: 0 0 0 3px #84e067;
   background-color: #84e0674f;
@@ -242,6 +271,9 @@ h1{
     margin: 0%;
     transition: scale .5s, transform .5s;
     transition-timing-function: ease-out;
+}
+.olivia{
+    transition: background-color .5s;
 }
 .olivia:hover{
   box-shadow: 0 0 0 3px #676a6d ;

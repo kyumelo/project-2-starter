@@ -1,4 +1,3 @@
-/* STYLE FOR YOUR INDEX.HTML */
 body{
     background-image: url(space.jpg);
 }
@@ -35,34 +34,6 @@ h1{
     background-color: black;
 
 }
-.flex1{
-    display: flex;
-    background-color: aliceblue;
-}
-.flex1 div{
-    background-color: lightskyblue;
-    width: 100px;
-    margin: 10px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
-}
-.flexmain{
-    display: flex;
-}
-.flexmain div{
-    background-color: #f1f1f1;
-  width: 60%;
-  margin: 2%;
-  text-align: center;
-  height: 50vh;
-  font-size: 30px;
-  padding: 5%;
-}
-@font-face {
-    font-family: Ting;
-    src: url(TingTong.ttf);
-}
 .LOONA{
     text-decoration: none;
     color: rgb(128, 186, 241);
@@ -78,9 +49,4 @@ h1{
 .Redebuts{
     text-decoration: none;
     color: rgb(128, 186, 241);
-}
-
-@font-face {
-    font-family: Star;
-    src: url(RainyStars_PERSONAL_USE_ONLY.otf);
 }
