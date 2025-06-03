@@ -19,21 +19,21 @@ h1{
     padding-top: 1%;
     width: 7%;
 }
-.nav li{
-    display: inline-block;
-    color: rgb(253, 250, 250);
-    font-size: 20px;
-    padding: 20px;
-    text-align: center;
-    border: rgb(170, 194, 230) solid 3px;
-    margin: 3px;
-    border-radius:5px;
-    background-color: #f1f1f1;
-    
+.nav {
+  display: flex;
+  justify-content: space-around;
+  list-style:none;
+  padding: 0;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius:5px;
+  
 }
-.nav{
-    background-color: black;
 
+.nav li a {
+  text-decoration: none;
+  padding: 10px;
+  font-weight: bold;
 }
 .flex1{
     display: flex;
@@ -47,6 +47,7 @@ h1{
     line-height: 75px;
     font-size: 30px;
 }
+
 .flexmain{
     display: flex;
 }
@@ -55,7 +56,7 @@ h1{
   width: 60%;
   margin: 2%;
   text-align: center;
-  height: 50vh;
+  height: auto;
   font-size: 30px;
   padding: 5%;
 }
@@ -65,22 +66,26 @@ h1{
 }
 .LOONA{
     text-decoration: none;
-    color: rgb(128, 186, 241);
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
 }
 .Members{
-    text-decoration: none;
-    color: rgb(128, 186, 241);
+     color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
 }
 .Discography{
-    text-decoration: none;
-    color: rgb(128, 186, 241);
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
 }
 .Redebuts{
-    text-decoration: none;
-    color: rgb(128, 186, 241);
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
 }
 
-@font-face {
-    font-family: Star;
-    src: url(RainyStars_PERSONAL_USE_ONLY.otf);
+.yt{
+    animation: pulse 1s infinite;
+    color: blue;
+}
+@keyframes pulse {
+    50%{color:red;}
 }

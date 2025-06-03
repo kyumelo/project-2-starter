@@ -10,7 +10,6 @@ h1{
     text-shadow:  1px 2px 5px rgb(166, 209, 230),
     0 0 1em rgb(23, 75, 109),
     0 0 0.2em rgb(71, 138, 182);
-    
 }
 
 .logo{
@@ -18,35 +17,82 @@ h1{
     padding-top: 1%;
     width: 7%;
 }
-.nav li{
-    display: inline-block;
-    color: rgb(253, 250, 250);
-    font-size: 20px;
-    padding: 20px;
-    text-align: center;
-    border: rgb(170, 194, 230) solid 3px;
-    margin: 3px;
-    border-radius:5px;
-    background-color: #f1f1f1;
-    
+.nav {
+  display: flex;
+  justify-content: space-around;
+  list-style:none;
+  padding: 0;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius:5px;
+  
 }
-.nav{
-    background-color: black;
 
+.nav li a {
+  text-decoration: none;
+  padding: 10px;
+  font-weight: bold;
 }
 .LOONA{
     text-decoration: none;
-    color: rgb(128, 186, 241);
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
 }
 .Members{
-    text-decoration: none;
-    color: rgb(128, 186, 241);
+     color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
 }
 .Discography{
-    text-decoration: none;
-    color: rgb(128, 186, 241);
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
 }
 .Redebuts{
-    text-decoration: none;
-    color: rgb(128, 186, 241);
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+.solos{
+width: 90%;
+}
+.loona13{
+    width: 90%;
+}
+.eye{
+    width: 90%;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+
+.row {
+  margin: 8px -16px;
+}
+
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content {
+  background-color: white;
+  padding: 10px;
 }
