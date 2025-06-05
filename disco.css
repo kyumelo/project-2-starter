@@ -13,6 +13,8 @@ h1{
     0 0 0.2em rgb(71, 138, 182);
     font-family: Ok;
     margin: 0%; 
+    position: relative;
+    animation: shift 1s;
 }
 
 .logo{
@@ -42,18 +44,45 @@ h1{
     text-decoration: none;
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    position: relative;
+}
+.LOONA:hover{
+    background-color: transparent;
+    box-shadow: none;
+    color: #f1f1f1;
+    box-shadow: 0 0 0 2px white;
 }
 .Members{
      color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
+    border-radius: 5px;
 }
+.Members:hover{
+    background-color: transparent;
+    box-shadow: none;
+    color: #f1f1f1;
+    box-shadow: 0 0 0 2px white;}
 .Discography{
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
+    border-radius: 5px;
 }
+.Discography:hover{
+    background-color: transparent;
+    box-shadow: none;
+    color: #f1f1f1;
+    box-shadow: 0 0 0 2px white;}
 .Redebuts{
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+.Redebuts:hover{
+    background-color: transparent;
+    box-shadow: none;
+    color: #f1f1f1;
+    box-shadow: 0 0 0 2px white;
 }
 .solos{
 width: 90%;
@@ -65,42 +94,16 @@ width: 90%;
     width: 90%;
 }
 
-body {
+.body {
   background-color: #f1f1f1;
   padding: 20px;
   font-family: Arial;
 }
 
-.main {
-  max-width: 1000px;
-  margin: auto;
+.column{
+  width: 1000px;
 }
 
-
-.row {
-  margin: 8px -16px;
-}
-
-.row,
-.row > .column {
-  padding: 8px;
-}
-
-.column {
-  float: left;
-  width: 25%;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.content {
-  background-color: white;
-  padding: 10px;
-}
 @font-face {
     font-family: ITC;
     src: url(ITC\ Avant\ Garde\ Gothic\ Std\ Extra\ Light.otf);
@@ -108,4 +111,8 @@ body {
 @font-face {
     font-family: Ok;
     src: url(Okaluera.otf);
+}
+@keyframes shift {
+    0% {top:-10px; opacity: 0;}
+    100%{top: 0px; opacity: 1;}
 }
