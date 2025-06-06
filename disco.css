@@ -12,7 +12,7 @@ h1{
     0 0 1em rgb(23, 75, 109),
     0 0 0.2em rgb(71, 138, 182);
     font-family: Ok;
-    margin: 0%; 
+    margin: 0%;
     position: relative;
     animation: shift 1s;
 }
@@ -39,8 +39,39 @@ h1{
   padding: 10px;
   font-weight: bold;
   font-family: ITC;
+
+}
+.flex1{
+    display: flex;
+    background-color: aliceblue;
+}
+.flex1 div{
+    background-color: lightskyblue;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.flexmain{
+    display: flex;
+}
+.flexmain div{
+    background-color: #f1f1f1;
+  width: 70%;
+  margin: 2%;
+  text-align: center;
+  height: auto;
+  font-size: 30px;
+  padding: 5%;
+}
+@font-face {
+    font-family: Ting;
+    src: url(TingTong.ttf);
 }
 .LOONA{
+    display: inline-block;
     text-decoration: none;
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
@@ -52,8 +83,13 @@ h1{
     box-shadow: none;
     color: #f1f1f1;
     box-shadow: 0 0 0 2px white;
+    animation: shakey .7s infinite;
+}
+.LOONA:active{
+box-shadow: 0px 0px 5px 5px white
 }
 .Members{
+    display: inline-block;
      color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
@@ -62,8 +98,16 @@ h1{
     background-color: transparent;
     box-shadow: none;
     color: #f1f1f1;
-    box-shadow: 0 0 0 2px white;}
+    box-shadow: 0 0 0 2px white;
+    animation: shakey .7s infinite;
+    
+  }
+.Members:active{
+box-shadow: 0px 0px 5px 5px white
+}
+
 .Discography{
+    display: inline-block;
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
@@ -72,8 +116,14 @@ h1{
     background-color: transparent;
     box-shadow: none;
     color: #f1f1f1;
-    box-shadow: 0 0 0 2px white;}
+    box-shadow: 0 0 0 2px white;
+    animation: shakey .7s infinite;
+  }
+  .Discography:active{
+box-shadow: 0px 0px 5px 5px white
+}
 .Redebuts{
+    display: inline-block;
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
@@ -83,6 +133,10 @@ h1{
     box-shadow: none;
     color: #f1f1f1;
     box-shadow: 0 0 0 2px white;
+    animation: shakey .7s infinite;
+}
+.Redebuts:active{
+box-shadow: 0px 0px 5px 5px white
 }
 .solos{
 width: 90%;
@@ -100,10 +154,6 @@ width: 90%;
   font-family: Arial;
 }
 
-.column{
-  width: 1000px;
-}
-
 @font-face {
     font-family: ITC;
     src: url(ITC\ Avant\ Garde\ Gothic\ Std\ Extra\ Light.otf);
@@ -115,4 +165,43 @@ width: 90%;
 @keyframes shift {
     0% {top:-10px; opacity: 0;}
     100%{top: 0px; opacity: 1;}
+}
+
+.flex-con{
+    display: flex;
+    justify-content: space-between
+}
+.flex-con div{
+background-color: white;
+  color: black;
+  width: 20%;
+  margin: 10px;
+  text-align: center;
+  line-height: 5vh;
+  font-size: 15px;
+}
+.loona13{
+    width: 90%;
+}
+.odd{
+    width: 90%;
+}
+.groupalbums{
+    width: 90%;
+}
+.yyxy{
+    width: 90%;
+}
+@keyframes shakey {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
